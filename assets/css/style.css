@@ -1,0 +1,95 @@
+body {
+    background: rgba(255, 255, 255, 0.5);
+    background: url("/images/strathmore-uni2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+.validateBox {
+    background-color: whitesmoke;
+    opacity: 0.85;
+    padding: 40px;
+    width: 80%; /* Adjustable width */
+    max-width: 400px; /* maximum width for larger screens */
+    margin: 90px auto; /* Box centered horizontally */
+    border-radius: 10px;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    text-align: center;
+    margin-top: -10;
+}
+
+input {
+    width: 100%;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 18px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    height: 35px;
+    color: rgb(37, 36, 36);
+}
+
+button {
+    border: none;
+    width: 75%;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 10px;
+    border-radius: 25px;
+    /* background-color:#a34f00; */
+    background-color: rgb(110, 27, 27);
+    color:white; 
+    cursor: pointer;
+}
+
+button:hover {
+    /* background: rgb(110, 27, 27); */
+    background:#a34f00;
+    color: white;
+}
+
+.validateBox h2 {
+    color: rgb(110, 27, 27);
+    font-family: sans-serif;
+}
+.validateBox textarea{
+     font-family: sans-serif;
+     width: 75%;
+}
+
+::placeholder {
+    color: grey;
+    text-align: center;
+    opacity: 0.8;
+}
+/* .page-wrapper {
+    overflow-x: hidden;
+} */
+
+/* Media Query for Mobile */
+@media (max-width: 600px) {
+    .validateBox {
+        width: 75%;
+        margin: 40px auto;
+    }
+}
+
+/* Media Query for Desktop and Larger Screens */
+@media (min-width: 601px) {
+    .validateBox {
+        width: 40%;
+    }
+}
