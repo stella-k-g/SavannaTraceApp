@@ -15,7 +15,13 @@
         <form>
           <textarea placeholder="IP address details" id="textarea1" class="input"></textarea>
           <br><br>
-          <button onclick="executePythonScript">Request IP Address</button>
+          <button onclick="executePythonScript">Request IP Address</button><br><br>
+
+          <button><a href="/SavannaTraceApp/savanna1.py" download="savanna1.py" target="_blank">
+                    Download IP Data
+                </a>
+            </button> 
+
          
         </form>
       </div>
