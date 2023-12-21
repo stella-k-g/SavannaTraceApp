@@ -17,12 +17,7 @@
           <br><br>
           <button onclick="executePythonScript">Request IP Address</button><br><br>
 
-          <button><a href="/SavannaTraceApp/savanna1.py" download="savanna1.py" target="_blank">
-                    Download IP Data
-                </a>
-            </button> 
-
-         
+          <button download="savanna1.py" target="_blank">Download IP Data</button> 
         </form>
       </div>
 
